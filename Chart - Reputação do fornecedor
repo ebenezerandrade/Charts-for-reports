@@ -7,7 +7,7 @@ Highcharts.chart('container', {
         text: 'Subcritério - Reputação do fornecedor'
     },
     subtitle: {
-        text: 'Porcentagem do quanto as funcionalidades das ferramentas suportam o modelo de gestão do conhecimento no subcritério de reputação do fornecedor'
+        text: 'Porcentagem do quanto o fornecedor das ferramentas podem auxíliar no modelo de gestão do conhecimento no subcritério de reputação do fornecedor'
     },
     xAxis: {
         type: 'category'
