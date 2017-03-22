@@ -4,7 +4,7 @@ Highcharts.chart('container', {
         type: 'column'
     },
     title: {
-        text: 'Critério Funcionalidade'
+        text: 'Critério - Funcionalidade'
     },
     subtitle: {
         text: 'Porcentagem do quanto as funcionalidades das ferramentas suportam o modelo de gestão do conhecimento no critério de funcionalidade'
@@ -14,7 +14,7 @@ Highcharts.chart('container', {
     },
     yAxis: {
         title: {
-            text: 'Percentual total de cobertura do subcritério'
+            text: 'Percentual total de cobertura do critério'
         }
 
     },
@@ -41,11 +41,11 @@ Highcharts.chart('container', {
         colorByPoint: true,
         data: [{
             name: 'WikiCGTI V1.22',
-            y: 32.22	,
+            y: 41.81	,
             drilldown: 'WikiCGTI V1.22'
         }, {
             name: 'Plataforma Minicom',
-            y: 36.38,
+            y: 31.64,
             drilldown: 'Plataforma Minicom'
         }, {
             name: 'OwnCloud + LDAP',
@@ -57,15 +57,15 @@ Highcharts.chart('container', {
             drilldown: 'OTRS (BDGC+FAQ)'
         }, {
             name: 'Moodle V2.8.1',
-            y: 66.45,
+            y: 61.12,
             drilldown: 'Moodle V2.8.1'
         }, {
             name: 'DSPACE V5.5',
-            y: 67.70,
+            y: 55.61,
             drilldown: 'DSPACE V5.5'
         }, {
         		name: 'Apache Subversion (SVN)',
-            y: 50.40,
+            y: 51.11,
             drilldown: 'Apache Subversion (SVN )'
         }]
     }],
