@@ -14,7 +14,7 @@ Highcharts.chart('container', {
     },
     yAxis: {
         title: {
-            text: 'Percentual total de cobertura do subcritério'
+            text: 'Percentual total de cobertura do objetivo geral'
         }
 
     },
@@ -61,7 +61,7 @@ Highcharts.chart('container', {
             drilldown: 'Moodle V2.8.1'
         }, {
             name: 'DSPACE V5.5',
-            y: 65.32,
+            y: 54.75,
             drilldown: 'DSPACE V5.5'
         }, {
         		name: 'Apache Subversion (SVN)',
